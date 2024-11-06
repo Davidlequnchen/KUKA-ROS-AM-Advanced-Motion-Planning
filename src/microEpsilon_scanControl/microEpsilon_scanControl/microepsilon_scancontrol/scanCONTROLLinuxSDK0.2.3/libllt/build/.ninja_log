@@ -1,0 +1,4 @@
+# ninja log v5
+0	327	1706173949805611535	llt@sha/src_llt.cpp.o	d5b7dc43edf7bd3
+328	390	1706173949869612042	libllt.so.0.2.3	2af80eba01054090
+1	194	0	meson-install	9bd7faa9472bf40f

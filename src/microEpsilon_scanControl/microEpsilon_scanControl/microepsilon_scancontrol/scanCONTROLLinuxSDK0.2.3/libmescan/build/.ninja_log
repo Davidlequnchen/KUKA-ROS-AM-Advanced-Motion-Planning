@@ -1,0 +1,5 @@
+# ninja log v5
+1	351	1706173871520960525	mescan@sha/src_mescan_basic.c.o	f84f3765d1fa8d5d
+2	355	1706173871524960560	mescan@sha/src_mescan_adv.c.o	ec34f58f8d3991d9
+355	409	1706173871576961015	libmescan.so.0.2.3	f7d581ee8cd5e45b
+1	207	0	meson-install	9bd7faa9472bf40f

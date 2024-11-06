@@ -1,0 +1,139 @@
+Build started at 2024-01-25T13:12:08.664577
+Main binary: /usr/bin/python3
+Build Options: 
+Python system: Linux
+The Meson build system
+Version: 0.53.2
+Source dir: /home/jeeva/GitHub/SIMTech_ws/src/microEpsilon_scanControl/microEpsilon_scanControl/microepsilon_scancontrol/scanCONTROLLinuxSDK0.2.3/libllt
+Build dir: /home/jeeva/GitHub/SIMTech_ws/src/microEpsilon_scanControl/microEpsilon_scanControl/microepsilon_scancontrol/scanCONTROLLinuxSDK0.2.3/libllt/build
+Build type: native build
+Project name: llt
+Project version: 0.2.3
+No CXXFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ /home/jeeva/GitHub/SIMTech_ws/src/microEpsilon_scanControl/microEpsilon_scanControl/microepsilon_scancontrol/scanCONTROLLinuxSDK0.2.3/libllt/build/meson-private/sanitycheckcpp.cc -o /home/jeeva/GitHub/SIMTech_ws/src/microEpsilon_scanControl/microEpsilon_scanControl/microepsilon_scancontrol/scanCONTROLLinuxSDK0.2.3/libllt/build/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/jeeva/GitHub/SIMTech_ws/src/microEpsilon_scanControl/microEpsilon_scanControl/microepsilon_scancontrol/scanCONTROLLinuxSDK0.2.3/libllt/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the build machine: c++ (gcc 9.4.0 "c++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0")
+C++ linker for the build machine: c++ ld.bfd 2.34
+No CXXFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ /home/jeeva/GitHub/SIMTech_ws/src/microEpsilon_scanControl/microEpsilon_scanControl/microepsilon_scancontrol/scanCONTROLLinuxSDK0.2.3/libllt/build/meson-private/sanitycheckcpp.cc -o /home/jeeva/GitHub/SIMTech_ws/src/microEpsilon_scanControl/microEpsilon_scanControl/microepsilon_scancontrol/scanCONTROLLinuxSDK0.2.3/libllt/build/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/jeeva/GitHub/SIMTech_ws/src/microEpsilon_scanControl/microEpsilon_scanControl/microepsilon_scancontrol/scanCONTROLLinuxSDK0.2.3/libllt/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the host machine: c++ (gcc 9.4.0 "c++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0")
+C++ linker for the host machine: c++ ld.bfd 2.34
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Pkg-config binary for MachineChoice.HOST is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default pkg-config fallback at pkg-config
+Trying pkg-config binary pkg-config for machine MachineChoice.HOST at ['/usr/bin/pkg-config']
+Found pkg-config: /usr/bin/pkg-config (0.29.1)
+Determining dependency 'aravis-0.6' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: /opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig
+Called `/usr/bin/pkg-config --modversion aravis-0.6` -> 0
+0.6.1
+PKG_CONFIG_PATH: /opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig
+Called `/usr/bin/pkg-config --cflags aravis-0.6` -> 0
+-pthread -I/usr/local/include/aravis-0.6 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/libxml2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: /opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig
+Called `/usr/bin/pkg-config aravis-0.6 --libs` -> 0
+-L/usr/local/lib -L/usr/lib/x86_64-linux-gnu -laravis-0.6 -lm -lgio-2.0 -lgobject-2.0 -lxml2 -lgthread-2.0 -pthread -lglib-2.0
+PKG_CONFIG_PATH: /opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig
+Called `/usr/bin/pkg-config aravis-0.6 --libs` -> 0
+-L/usr/local/lib -laravis-0.6 -lm -lgio-2.0 -lgobject-2.0 -lxml2 -lgthread-2.0 -pthread -lglib-2.0
+Running compile:
+Working directory:  /home/jeeva/GitHub/SIMTech_ws/src/microEpsilon_scanControl/microEpsilon_scanControl/microepsilon_scancontrol/scanCONTROLLinuxSDK0.2.3/libllt/build/meson-private/tmp7v2y03a8
+Command line:  c++ /home/jeeva/GitHub/SIMTech_ws/src/microEpsilon_scanControl/microEpsilon_scanControl/microepsilon_scancontrol/scanCONTROLLinuxSDK0.2.3/libllt/build/meson-private/tmp7v2y03a8/testfile.cpp -o /home/jeeva/GitHub/SIMTech_ws/src/microEpsilon_scanControl/microEpsilon_scanControl/microepsilon_scancontrol/scanCONTROLLinuxSDK0.2.3/libllt/build/meson-private/tmp7v2y03a8/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/jeeva/GitHub/SIMTech_ws/src/microEpsilon_scanControl/microEpsilon_scanControl/microepsilon_scancontrol/scanCONTROLLinuxSDK0.2.3/libllt/build/meson-private/tmp_dkgjctv
+Command line:  c++ /home/jeeva/GitHub/SIMTech_ws/src/microEpsilon_scanControl/microEpsilon_scanControl/microepsilon_scancontrol/scanCONTROLLinuxSDK0.2.3/libllt/build/meson-private/tmp_dkgjctv/testfile.cpp -o /home/jeeva/GitHub/SIMTech_ws/src/microEpsilon_scanControl/microEpsilon_scanControl/microepsilon_scancontrol/scanCONTROLLinuxSDK0.2.3/libllt/build/meson-private/tmp_dkgjctv/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/9/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/9/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/9/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /home/jeeva/GitHub/SIMTech_ws/src/microEpsilon_scanControl/microEpsilon_scanControl/microepsilon_scancontrol/scanCONTROLLinuxSDK0.2.3/libllt/build/meson-private/tmp2spupay1
+Command line:  c++ /home/jeeva/GitHub/SIMTech_ws/src/microEpsilon_scanControl/microEpsilon_scanControl/microepsilon_scancontrol/scanCONTROLLinuxSDK0.2.3/libllt/build/meson-private/tmp2spupay1/testfile.cpp -o /home/jeeva/GitHub/SIMTech_ws/src/microEpsilon_scanControl/microEpsilon_scanControl/microepsilon_scancontrol/scanCONTROLLinuxSDK0.2.3/libllt/build/meson-private/tmp2spupay1/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wl,--start-group -lm -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Run-time dependency aravis-0.6 found: YES 0.6.1
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'mescan' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: /opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig
+Called `/usr/bin/pkg-config --modversion mescan` -> 0
+0.2.3
+PKG_CONFIG_PATH: /opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig
+Called `/usr/bin/pkg-config --cflags mescan` -> 0
+-I/usr/local/include/mescan
+PKG_CONFIG_PATH: /opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig
+Called `/usr/bin/pkg-config mescan --libs` -> 0
+-lmescan
+PKG_CONFIG_PATH: /opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig
+Called `/usr/bin/pkg-config mescan --libs` -> 0
+-lmescan
+Running compile:
+Working directory:  /home/jeeva/GitHub/SIMTech_ws/src/microEpsilon_scanControl/microEpsilon_scanControl/microepsilon_scancontrol/scanCONTROLLinuxSDK0.2.3/libllt/build/meson-private/tmpcuz1xwvr
+Command line:  c++ /home/jeeva/GitHub/SIMTech_ws/src/microEpsilon_scanControl/microEpsilon_scanControl/microepsilon_scancontrol/scanCONTROLLinuxSDK0.2.3/libllt/build/meson-private/tmpcuz1xwvr/testfile.cpp -o /home/jeeva/GitHub/SIMTech_ws/src/microEpsilon_scanControl/microEpsilon_scanControl/microepsilon_scancontrol/scanCONTROLLinuxSDK0.2.3/libllt/build/meson-private/tmpcuz1xwvr/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wl,--start-group -lmescan -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Run-time dependency mescan found: YES 0.2.3
+Build targets in project: 1
+
+Found ninja-1.11.1.git.kitware.jobserver-1 at /home/jeeva/.local/bin/ninja
