@@ -7,7 +7,9 @@ This repository provides advanced motion planning in ROS for KUKA robots in Addi
 ## 📺 Video Demo: KUKA Robot Control through ROS and MoveIt!
 
 <div align="center">
-  <iframe width="640" height="360" src="https://www.youtube.com/embed/4jOYoO9tWrY?list=PLqwmbLeiFvVnshyNFcZAJNjZwGdxexN76&index=11" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <a href="https://www.youtube.com/watch?v=4jOYoO9tWrY&list=PLqwmbLeiFvVnshyNFcZAJNjZwGdxexN76&index=11">
+    <img src="https://img.youtube.com/vi/4jOYoO9tWrY/maxresdefault.jpg" alt="KUKA Robot Control through ROS and MoveIt!" width="650"/>
+  </a>
 </div>
 
 This video demonstrates the control of a KUKA robot using ROS and MoveIt! motion planning for additive manufacturing applications.
