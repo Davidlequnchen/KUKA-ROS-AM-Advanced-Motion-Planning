@@ -40,3 +40,5 @@ Follow the repository setup instructions to install the necessary dependencies a
    - Chen, L., Yao, X., Xu, P., Moon, S.K., Bi, G., 2021. Rapid surface defect identification for additive manufacturing with in-situ point cloud processing and machine learning. *Virtual and Physical Prototyping*, 16, 50–67. [DOI:10.1080/17452759.2020.1832695](https://doi.org/10.1080/17452759.2020.1832695)  
    - Xu, P., Yao, X., Chen, L., Zhao, C., Liu, K., Moon, S.K., & Bi, G., 2022. In-process adaptive dimension correction strategy for laser-aided additive manufacturing using laser line scanning. *Journal of Materials Processing Technology*, 303, 117544. [DOI:10.1016/j.jmatprotec.2022.117544](https://doi.org/10.1016/j.jmatprotec.2022.117544)
 
+2. **Contributors to the repository**:
+   Jeevadithyan Pommiah Sivakumar, Chen Lequn
