@@ -9,7 +9,7 @@ This repository provides advanced motion planning in ROS for KUKA robots in Addi
 <p align="center">
 <a href="https://www.youtube.com/watch?v=4jOYoO9tWrY&list=PLqwmbLeiFvVnshyNFcZAJNjZwGdxexN76&index=11">
     <img width="600px" src="https://img.youtube.com/vi/4jOYoO9tWrY/maxresdefault.jpg" alt="Watch the video">
-    <p>KUKA Robot Advanced Motion Planning for Additive Manufacturing</p>
+    </br>Watch on YouTube: KUKA Robot Advanced Motion Planning for Additive Manufacturing<
 </a>
 </p>
 
